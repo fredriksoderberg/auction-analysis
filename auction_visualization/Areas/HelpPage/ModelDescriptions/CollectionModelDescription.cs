@@ -1,0 +1,7 @@
+namespace auction_visualization.Areas.HelpPage.ModelDescriptions
+{
+    public class CollectionModelDescription : ModelDescription
+    {
+        public ModelDescription ElementDescription { get; set; }
+    }
+}
