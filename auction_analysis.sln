@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "auction_visualization", "auction_visualization\auction_visualization.csproj", "{184C7C0C-E905-4C74-AD26-9219443BC1BF}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "car-auction-analysis", "..\..\..\GitHub\car-auction-analysis\car-auction-analysis\car-auction-analysis.pyproj", "{ECB2D321-ABB0-4CBC-9331-BAFB4D2A6813}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "auction-analysis", "..\..\..\GitHub\car-auction-analysis\car-auction-analysis\auction-analysis.pyproj", "{ECB2D321-ABB0-4CBC-9331-BAFB4D2A6813}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
