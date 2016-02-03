@@ -3,9 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>ab4008a1-5747-458d-ae60-c3dc9adbe986</ProjectGuid>
+    <ProjectGuid>3aa4e659-7ebe-4a52-9544-8b502c8913c9</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>auction_data.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,17 +22,31 @@
     <DebugSymbols>true</DebugSymbols>
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
-  <ItemGroup>
-    <Compile Include="auction_data.py" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="auction_scraper.sh" />
-    <Content Include="scrapy.cfg" />
-  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
   </PropertyGroup>
+  <ItemGroup>
+    <Content Include="auction_scraper.sh" />
+    <Content Include="scrapy.cfg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="auction_scraper\items.py" />
+    <Compile Include="auction_scraper\models.py" />
+    <Compile Include="auction_scraper\pipelines.py" />
+    <Compile Include="auction_scraper\settings.py" />
+    <Compile Include="auction_scraper\spiders\auction_bid_fields.py" />
+    <Compile Include="auction_scraper\spiders\auction_bid_spider.py" />
+    <Compile Include="auction_scraper\spiders\auction_item_fields.py" />
+    <Compile Include="auction_scraper\spiders\auction_item_spider.py" />
+    <Compile Include="auction_scraper\spiders\__init__.py" />
+    <Compile Include="auction_scraper\__init__.py" />
+    <Compile Include="settings.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="auction_scraper\" />
+    <Folder Include="auction_scraper\spiders\" />
+  </ItemGroup>
   <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
   <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

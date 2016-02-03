@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "auction_visualization", "auction_visualization\auction_visualization.csproj", "{184C7C0C-E905-4C74-AD26-9219443BC1BF}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "auction_data", "..\car-auction-analysis\car-auction-analysis\auction_data.pyproj", "{ECB2D321-ABB0-4CBC-9331-BAFB4D2A6813}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "auction_data", "auction_data\auction_data.pyproj", "{3AA4E659-7EBE-4A52-9544-8B502C8913C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,8 +17,8 @@ Global
 		{184C7C0C-E905-4C74-AD26-9219443BC1BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{184C7C0C-E905-4C74-AD26-9219443BC1BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{184C7C0C-E905-4C74-AD26-9219443BC1BF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ECB2D321-ABB0-4CBC-9331-BAFB4D2A6813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ECB2D321-ABB0-4CBC-9331-BAFB4D2A6813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AA4E659-7EBE-4A52-9544-8B502C8913C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AA4E659-7EBE-4A52-9544-8B502C8913C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
