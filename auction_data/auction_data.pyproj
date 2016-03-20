@@ -13,6 +13,12 @@
     <OutputPath>.</OutputPath>
     <Name>auction_data</Name>
     <RootNamespace>auction_data</RootNamespace>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterArguments>
+    </InterpreterArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <CommandLineArguments>crawl auction_items</CommandLineArguments>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -31,6 +37,9 @@
     <Content Include="scrapy.cfg" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="auction_scraper\db_settings.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="auction_scraper\items.py" />
     <Compile Include="auction_scraper\models.py" />
     <Compile Include="auction_scraper\pipelines.py" />
@@ -41,7 +50,6 @@
     <Compile Include="auction_scraper\spiders\auction_item_spider.py" />
     <Compile Include="auction_scraper\spiders\__init__.py" />
     <Compile Include="auction_scraper\__init__.py" />
-    <Compile Include="settings.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="auction_scraper\" />

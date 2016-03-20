@@ -3,11 +3,11 @@ from models import AuctionItem, BidItem, create_table
 from sqlalchemy import create_engine
 from sqlalchemy.engine.url import URL
 
-import settings
+import settings, db_settings
 
 class AuctionPipeline(object):
     def __init__(self):
-        engine = create_engine(URL(**settings.DATABASE))
+        engine = create_engine(URL(**db_settings.DATABASE))
         create_table(engine)
         self.Session = sessionmaker(bind=engine)
         
@@ -31,7 +31,7 @@ class AuctionPipeline(object):
 
 class BidPipeline(object):
      def __init__(self):
-        engine = create_engine(URL(**settings.DATABASE))
+        engine = create_engine(URL(**db_settings.DATABASE))
         create_table(engine)
         self.Session = sessionmaker(bind=engine)
 

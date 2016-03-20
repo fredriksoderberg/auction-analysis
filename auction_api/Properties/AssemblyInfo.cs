@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("auction_visualization")]
+[assembly: AssemblyTitle("auction_api")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("auction_visualization")]
+[assembly: AssemblyProduct("auction_api")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("c3cb9ce6-e3da-46bc-a157-26fca43b5962")]
+[assembly: Guid("27fdafa1-93c2-4a90-9434-e4147fc0d62a")]
 
 // Version information for an assembly consists of the following four values:
 //
