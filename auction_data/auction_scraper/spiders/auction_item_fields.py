@@ -1,7 +1,7 @@
 auction_item_fields = {
         'object_number': '//input[@name="item_id"]/@value',
         'auction_URL': '//input[@name="item_url"]/@value',
-        'car_model': '//div[@id="main"]/div/div[3]/div/div[3]/div[1]/div[1]/h1/text()',
+        'car_model': '//*[@id="main"]/div/div[3]/div/div[2]/div[2]/div[1]/div[1]/h1/text()',
         'description' : '//*[@id="main"]/div/div[3]/div/div[2]/div[2]/div[1]/div[1]/p/text()',
         'place_of_sale' : '//*[@id="main"]/div/div[3]/div/div[2]/div[2]/div[1]/div[2]/ul[2]/li[6]/a/text()',
         'estimated_auction_price': '//*[@id="main"]/div/div[3]/div/div[2]/div[3]/div[1]/ul/li/div/ul[1]/li[2]/div/text()',
