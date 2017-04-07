@@ -20,7 +20,7 @@ auction_item_fields = {
         'nr_of_seats' :'//li[text() = "Antal sittplatser"]/following-sibling::li[1]/text()',
         'color' :'//li[contains(text(), "rg")]/following-sibling::li[1]/text()',
         'car_paint' : '//li[text() = "Lack"]/following-sibling::li[1]/text()',
-        'fabric' :  '//div[@id="tab-1"]/div[2]/div[3]/ul/li[22]/li[contains(text(), "dsel")]/following-sibling::li[1]/text()',
+        'fabric' :  '//*[@id="tab-1"]/div[2]/div[3]/ul/li[22]/text()',
         'new_car_warranty' :'//li[text() = "Nybilsgaranti"]/following-sibling::li[1]/text()',
         'car_damage_warranty' : '//li[text() = "Vagnskadegaranti"]/following-sibling::li[1]/text()',
         'condition_technical_major_notes' : '//div[@id="tab-1"]/div[2]/div[4]/ul/li[contains(text(), "sentliga anm")]/following-sibling::li[1]/text()',
